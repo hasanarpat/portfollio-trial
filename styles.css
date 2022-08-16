@@ -1,5 +1,7 @@
 body{
     background: #fff;
+    margin:0;
+    padding: 0;
 }
 .myfont{
     font-family: 'Gothic A1', serif;
@@ -38,9 +40,6 @@ section{
     padding-bottom: 1rem;
     width: 100%;
 
-}
-.desc-offers{
-    padding:0;
 }
 .aligned-cards{
     display: flex;
@@ -94,3 +93,24 @@ i{
     align-items: center;
     justify-content: center;
 }
+.opening-picture{
+    width: 20rem;
+    border-radius: 50%;
+}
+@media (max-width: 575.98px) { 
+    body{
+        width: 100vw;
+    }
+    .nums{
+        flex-direction: column;
+        margin:0;
+        padding-top: 2.5rem;
+    }
+    .card-container-inner{
+        flex-direction: column;
+    }
+    .opening-picture{
+        width: 14rem;
+    }
+    footer{padding:2rem; }
+ }
