@@ -1,0 +1,96 @@
+body{
+    background: #fff;
+}
+.myfont{
+    font-family: 'Gothic A1', serif;
+    line-height: 2rem;
+}
+.carousel-item{
+    height:32rem;
+    background-color: #000;
+    color:whitesmoke;
+    position: relative;
+}
+.container-info{
+position: absolute;
+left:0;
+bottom:0;
+right:0;
+padding-bottom: 2rem;
+}
+.overlay-image{
+    position: absolute;
+    background-position: center;
+    background-size:cover;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    opacity: .6;
+}
+section{
+    width:70%;
+    margin-inline: auto;
+    padding-top:.8rem;
+}
+.desc{
+    text-align: center;
+    padding-bottom: 1rem;
+    width: 100%;
+
+}
+.desc-offers{
+    padding:0;
+}
+.aligned-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card{
+    border:none;
+}
+i{
+    height:2rem;
+    width: auto;
+}
+.full-width{
+    width:100%;
+    margin:2rem 0;
+}
+.sec3-container{
+    width: 70%;
+    margin-inline: auto;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+.card-container-inner{
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 2.5rem;
+}
+.nums{
+    display: flex;
+    margin-inline: 20%;
+    justify-content: space-around;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.align-ol{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
